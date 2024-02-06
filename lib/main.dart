@@ -15,7 +15,6 @@ import 'pages/home/food_page_body.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await dep.init();
-  Get.put(CartController());
   runApp(const MyApp());
 }
 
